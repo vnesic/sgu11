@@ -1,0 +1,33 @@
+# Dependency directories
+/node_modules/
+
+# Build artifacts
+/build/
+/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled output
+*.log
+*.bak
+*.tmp
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Testing artifacts
+/coverage/
+
+# Operating System files
+.DS_Store
+Thumbs.db
