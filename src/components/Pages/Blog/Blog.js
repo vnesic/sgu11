@@ -16,6 +16,20 @@ const Blog = () => {
       content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       author: 'Jane Smith',
       date: 'June 5, 2023'
+    },
+    {
+      title: 'Another Blog Post',
+      image: '/path/to/image2.jpg',
+      content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      author: 'Jane Smith',
+      date: 'June 5, 2023'
+    },
+    {
+      title: 'Another Blog Post',
+      image: '/path/to/image2.jpg',
+      content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      author: 'Jane Smith',
+      date: 'June 5, 2023'
     }
   ];
 

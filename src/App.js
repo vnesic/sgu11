@@ -10,7 +10,7 @@ import Blog from "./components/Pages/Blog/Blog";
 import Kontakt from "./components/Pages/Kontakt/Kontakt";
 import Razvojna from "./components/Pages/Grupni/Razvojna";
 
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import {
   BrowserRouter as Router,
   Route,

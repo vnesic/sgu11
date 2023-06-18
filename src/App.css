@@ -13,6 +13,13 @@
   }
 }
 
+.App-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .App-header {
   background-color: #ffc2cd;
   min-height: 100vh;
