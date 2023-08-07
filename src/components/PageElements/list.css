@@ -1,0 +1,11 @@
+.list-container {
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+    text-align:left;
+  }
+  
+  .list-container li {
+    margin-bottom: 8px;
+  }
+  

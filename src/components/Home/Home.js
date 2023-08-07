@@ -6,7 +6,7 @@ import home2 from "../../Assets/Resources/home2.jpg"
 
 function Home() {
   return (
-    <section>
+    <section className="razvojna-page">
       <Particle/>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">

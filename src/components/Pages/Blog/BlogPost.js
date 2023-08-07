@@ -3,7 +3,7 @@ import '../Pages.css';
 
 const BlogPost = () => {
   return (
-    <div className="blog-post">
+    <div className="razvojna-page">
       <img src="/path/to/image.jpg" alt="Blog Post" className="blog-post-image" />
       <div className="blog-post-content">
         <h2 className="blog-post-title">Title of the Blog Post</h2>

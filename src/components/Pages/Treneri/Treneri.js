@@ -1,8 +1,10 @@
 import React from 'react';
+import { Container, Row, Col } from "react-bootstrap";
 
 const Treneri = () => {
   return (
-    <div>
+    <div className="razvojna-page">
+
       <h1>John Anderson - Transforming Lives Through Fitness</h1>
       <img src="https://example.com/john-anderson.jpg" alt="John Anderson" />
 
@@ -16,6 +18,7 @@ const Treneri = () => {
         Born and raised in a small town, John Anderson developed...
       </p>
       {/* Add more sections as needed */}
+
     </div>
   );
 };

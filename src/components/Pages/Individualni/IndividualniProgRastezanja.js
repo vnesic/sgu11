@@ -6,6 +6,7 @@ import image2 from "../../../Assets/Resources/akrobatska2.png";
 import '../Pages.css';
 import PictureRightWithTextLeft from "../../PageElements/PictureRightWithTextLeft";
 import PictureLefttWithTextRight from "../../PageElements/PictureLefttWithTextRight";
+import List from "../../PageElements/List";
 
 
 function IndividualniProgRastezanja(){
@@ -17,11 +18,9 @@ function IndividualniProgRastezanja(){
         <div>
             <h1>Individualni program rastezanja</h1>
             <p>Gipkost predstavlja jednu od najvažnijih fizičkih sposobnosti čije dejstvo na mišiće višestruko značajno. Razvijanje i održavanje ove motoričke sposobnosti ima veliki značaj u svim aktivnostima i svim životnim dobima, zbog toga je jedini neizostavni deo svake programirane fizičke aktivnosti. Benefite koje optimalan nivo gipkosti donosi su pre svega:</p>
-            <p>Akrobatika predstavlja skup gimnastičkih vežbi koje se izvode u parteru. Jedna od glavnih karakteristika vežbi akrobatike je mogućnost vladanja sopstvenim telom u bestežinskom stanju (kao što je slučaj kod vežbe salta), kao i velika kontrola u brzim promenama položaja tela. Najpoznatije akrobatske vežbe su: stav o šakama, zvezde, mostovi, premeti, salta i dr.</p>
-            <p>Najveći značaj u savlađivanju ovih vežbi je upravo jačanje i razvijanje celokupne muskulature tela, razvoj koordinacije, snage, balansa i gipkosti. Pored fizioloških efekata ovih vežbi, njihova uloga je velika u savlađivanju straha i podizanju samoopouzdanja.</p>
         </div>
        </Row>
-
+        <List></List>
        <Row>
         <PictureRightWithTextLeft
             imageSrc= {image1}
