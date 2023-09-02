@@ -20,7 +20,6 @@ import {
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
 
@@ -30,14 +29,13 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 200);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <Router>
-      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Sidebar />
         <ScrollToTop />
