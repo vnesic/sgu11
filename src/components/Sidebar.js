@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect, useRef } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
@@ -41,8 +41,12 @@ const SidebarWrap = styled.div`
   width: 100%;
 `;
 
+
+
 const Sidebar = () => {
     const [sidebar, setSidebar] = useState(false);
+    const itemRef = useRef(null);
+    useOutsideAlerter(itemRef);
 
     const showSidebar = () => setSidebar(!sidebar);
 
@@ -50,8 +54,27 @@ const Sidebar = () => {
         showSidebar(false);
     };
 
+    function useOutsideAlerter(ref) {
+        useEffect(() => {
+          /**
+           * Alert if clicked on outside of element
+           */
+          function handleClickOutside(event) {
+            if (ref.current && !ref.current.contains(event.target)) {
+                setSidebar(false);
+            }
+          }
+          // Bind the event listener
+          document.addEventListener("mousedown", handleClickOutside);
+          return () => {
+            // Unbind the event listener on clean up
+            document.removeEventListener("mousedown", handleClickOutside);
+          };
+        },  [ref]);
+    }
+
     return (
-        <>
+            <div ref={itemRef}>
             <IconContext.Provider value={{ color: "#fff" }}>
                 <Nav>
                     <NavIcon to="#">
@@ -78,7 +101,7 @@ const Sidebar = () => {
                     </SidebarWrap>
                 </SidebarNav>
             </IconContext.Provider>
-        </>
+            </div>
     );
 };
 
