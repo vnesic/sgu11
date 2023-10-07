@@ -1,12 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import image1 from "../../../Assets/Resources/razvojna1.jpg";
 import image2 from "../../../Assets/Resources/razvojna2.jpg";
 
-import '../Pages.css';
-import TextImageElem from "../../PageElements/TextImageElem";
-import PictureRightWithTextLeft from "../../PageElements/PictureRightWithTextLeft";
 import PictureLeftWithTextRight from "../../PageElements/PictureLefttWithTextRight";
+import PictureRightWithTextLeft from "../../PageElements/PictureRightWithTextLeft";
+import '../Pages.css';
 
 
 function Razvojna() {
@@ -48,8 +47,8 @@ function Razvojna() {
             <PictureRightWithTextLeft
               imageSrc={image1}
               header="Koncept rada programa razvojne gimnastike u SGU11:"
-              text="Program razvojne gimnastike u našem klubu je organizovan u malim grupama (od 6 do 8 devojčica), jer to omogućava brže i lakše savlađivanje novih veština i veliku posvećenost trenera svakom detetu. Treninzi se održavaju tri ili dva puta nedeljno i plan je programiran tako da se svake nedelje obrađuju elementi akrobatike, ritmike, skokova, okreta i snage. Obuhvatajući svake nedelje rad u svakoj podoblasti razvojne gimnastike, dete brže napreduje, a samo učenje biva zabavnije."
-            />
+              text="Program razvojne gimnastike u našem klubu je organizovan u malim grupama (do 8 devojčica), jer to omogućava brže i lakše savlađivanje novih veština i veliku posvećenost trenera svakom detetu.Treninzi se održavaju tri puta nedeljno i plan je programiran tako da se svake nedelje obrađuju elementi akrobatike, ritmike, skokova, okreta i snage. Obuhvatajući svake nedelje rad u svakoj podoblasti razvojne gimnastike, dete brže napreduje, a samo učenje biva zabavnije.
+            "/>
           </Col>
         </Row>
         <Row>

@@ -80,8 +80,8 @@ const ContactPage = () => {
         </Col>
         <Col md={4} className="contact-info">
           <h3>Radno vreme</h3>
-          <p>Ponedeljak-Petak: 9am - 5pm</p>
-          <p>Subota: 7h-13h</p>
+          <p>Ponedeljak-Petak: 5:30h - 21:30h</p>
+          <p>Subota: 5:30h-15h</p>
         </Col>
       </Row>
     </Container>

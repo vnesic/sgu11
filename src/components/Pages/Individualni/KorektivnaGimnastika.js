@@ -1,5 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import image1 from "../../../Assets/Resources/korektivna1.jpg";
+import image2 from "../../../Assets/Resources/korektivna2.jpg";
+
+import PictureLeftWithTextRight from "../../PageElements/PictureLefttWithTextRight";
+import PictureRightWithTextLeft from "../../PageElements/PictureRightWithTextLeft";
 
 function KorektivnaGimnastika() {
   return (
@@ -27,28 +32,31 @@ function KorektivnaGimnastika() {
         </Row>
         <Row>
           <Col>
-            <h1>Koncept rada korektivne gimnastike u SGU11:</h1>
-            <h2>
-              Korektivna gimnastika je usmerena na direktan rad između trenera i
+
+          <PictureLeftWithTextRight
+              imageSrc={image2}
+              header="Koncept rada korektivne gimnastike u SGU11:"
+              text="Korektivna gimnastika je usmerena na direktan rad između trenera i
               klijenta. Moguće je sprovoditi samo individualno, gde se program
               prilagođava potencijalnom ili već nastalom deformitetu, kao i
               trenutnim sposobnostima deteta. Uz neprestan nadzor trenera,
               sprečiće se dovođenje u nepravilne položaje i brže će samo dete
               napredovati. Termini individualnog programa se dogovaraju u skladu
               sa mogućnostima klijenta i trenutno raspoloživim terminima
-              trenera.
-            </h2>
+              trenera."/>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h1>Kome je namenjen ovaj program:</h1>
-            <h2>
-              Program je namenjen deci od 7 do 18 godina, koja imaju predispoziciju
+
+
+            <PictureRightWithTextLeft
+              imageSrc={image1}
+              header="Kome je namenjen ovaj program:"
+              text="Program je namenjen deci od 7 do 18 godina, koja imaju predispoziciju
               za nastanak telesnog deformiteta ili već imaju oformljen deformitet
               koštano-zglobnog sistema (skolioza, lordoza, kifoza, ravna stopala,
-              X ili O noge)
-            </h2>
+              X ili O noge)"/>
           </Col>
         </Row>
       </Container>

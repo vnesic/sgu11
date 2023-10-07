@@ -6,14 +6,11 @@ const BlogPost = () => {
     <div className="razvojna-page">
       <img src="/path/to/image.jpg" alt="Blog Post" className="blog-post-image" />
       <div className="blog-post-content">
-        <h2 className="blog-post-title">Title of the Blog Post</h2>
+        <h2 className="blog-post-title">Важност плесних и ритмичких вeжби у развоју детета</h2>
         <p className="blog-post-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget justo et ex venenatis tempus vitae nec erat.
-          Suspendisse potenti. Fusce viverra lacinia mauris, a iaculis justo tempor in. Cras venenatis lectus sed finibus
-          volutpat. Nunc accumsan, purus ut facilisis condimentum, risus sem interdum arcu, id tempor neque nunc sit amet
-          tortor. Quisque consequat maximus dolor sit amet volutpat. Aenean auctor tortor nec augue rutrum, a feugiat justo
-          vulputate. Aliquam aliquet dui ut lectus eleifend, id tristique lorem tristique. Nullam tincidunt nunc vel orci
-          cursus, in dignissim velit euismod. Curabitur tincidunt viverra dolor id scelerisque.
+        Још током 19. и 20. века у култури грчке гимнастике покрет је имао за основни циљ да дочара лепоту, складност и хармоничност. Својим садржајем и облицима рада, плесни део вежбе имао је задатак да пробуди код васпитаника смисао и способност свесног естетског доживљаја, да подстакне развој осећаја за ритам и динамику, осећаја за просторно и временско одвијање кретања, као и префињеност, хармоничност, изражајност кретања.
+	Бројни аутори истичу урођену повезаност музике и кретања која формира код детета способност стваралачке интуиције. Ксенофонт је наводио да музика представља „све оно што обухвата образовање ума, а гимнастика све оно што се односи на развој и културу тела”, а управо то чини основу васпитно образовног процеса развојне гимнастике за девојчице. Платон је такође увидео да за усклађени развој личности једну од најзначајнијих улога играју гимнастика и музика. Физичко васпитање тела и музичко васпитање душе, како је он говорио, имају за циљ да „тело и душу доведу у склад“.
+	Педагог Вићентије Ракић у књизи Васпитање игром и уметношћу приказује уметност и игру као средство васпитања које потпомаже развој независности, осећаја слободе, као и духовне и телесне усклађености код деце. Он истовремено истиче и чињеницу да је васпитање уметношћу кроз телесно кретање неопходно у детињству, јер су тада човекове способности у развоју. Развојна гимнастика управо овај вид рада омогућава кроз вежбе у партеру. Разноврсним моторичко-музичким задацима које овај начин вежбања нуди, побољшавају се аналитичке способности деце, као и њихова успешност у социјалним односима са вршњацима и одраслима. Истовремено, деца поступно овладавају и финим моторним вештинама и визуелномоторном координацијом. Зато програм развојне гимнастике обилује бројним плесним и ритмичким елементима.
         </p>
       </div>
     </div>

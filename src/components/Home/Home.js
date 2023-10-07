@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import sgu_logo from "../../Assets/Resources/sgu_logo.jpg"
-import home2 from "../../Assets/Resources/home2.jpg"
+import { Container, Row } from "react-bootstrap";
+import home2 from "../../Assets/Resources/home2.jpg";
+import sgu_logo from "../../Assets/Resources/sgu_logo.jpg";
 
 function Home() {
   return (

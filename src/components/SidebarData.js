@@ -53,7 +53,7 @@ export const SidebarData = [
         cName: "sub-nav",
       },
       {
-        title: "Funkcionalni treninzi za devojke i žene",
+        title: "Personalni treninzi za devojke i žene",
         path: "/individualni/funkcionalni",
         icon: <IoIcons.IoIosPaper />,
         cName: "sub-nav",

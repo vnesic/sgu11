@@ -8,7 +8,7 @@ const PictureRightWithTextLeft = ({ imageSrc, header, text }) => {
           <p>{text}</p>
         </div>
         <div style={{ flex: 1 }}>
-          <img src={imageSrc} alt="Picture" style={{ width: '50%' }} />
+          <img src={imageSrc} alt="Picture" style={{ width: '90%' }} />
         </div>
       </div>
     );

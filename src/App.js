@@ -1,27 +1,26 @@
-import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import React, { useEffect, useState } from "react";
 import Home from "./components/Home/Home";
-import Treneri from "./components/Pages/Treneri/Treneri";
-import Individualni from "./components/Pages/Individualni/IndividualniProgRastezanja";
-import FunkcionalniTreninzi from "./components/Pages/Individualni/FunkcionalniTreninzi";
-import KorektivnaGimnastika from "./components/Pages/Individualni/KorektivnaGimnastika";
-import AkrobatskaGimnastika from "./components/Pages/Individualni/AkrobatskaGimnastika";
 import Blog from "./components/Pages/Blog/Blog";
-import Kontakt from "./components/Pages/Kontakt/Kontakt";
 import Razvojna from "./components/Pages/Grupni/Razvojna";
+import AkrobatskaGimnastika from "./components/Pages/Individualni/AkrobatskaGimnastika";
+import FunkcionalniTreninzi from "./components/Pages/Individualni/FunkcionalniTreninzi";
+import Individualni from "./components/Pages/Individualni/IndividualniProgRastezanja";
+import KorektivnaGimnastika from "./components/Pages/Individualni/KorektivnaGimnastika";
+import Kontakt from "./components/Pages/Kontakt/Kontakt";
+import Treneri from "./components/Pages/Treneri/Treneri";
 
-import Footer from "./components/Footer/Footer";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
-import "./style.css";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {
+  Navigate,
+  Route,
+  BrowserRouter as Router,
+  Routes
+} from "react-router-dom";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import Sidebar from "./components/Sidebar";
+import "./style.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);

@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import image1 from "../../../Assets/Resources/akrobatska1.jpg";
 import image2 from "../../../Assets/Resources/akrobatska2.png";
 
-import '../Pages.css';
-import PictureRightWithTextLeft from "../../PageElements/PictureRightWithTextLeft";
 import PictureLefttWithTextRight from "../../PageElements/PictureLefttWithTextRight";
+import PictureRightWithTextLeft from "../../PageElements/PictureRightWithTextLeft";
+import '../Pages.css';
 
 
 function AkrobatskaGimnastika(){

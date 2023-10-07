@@ -252,6 +252,7 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+
 }
 
 .home-section {
@@ -262,6 +263,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+
 }
 
 .home-content {
@@ -270,14 +272,26 @@ button:focus {
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .home-content{
+    padding: 9rem 0 2rem !important;
+    color: rgb(100, 0, 0);
+    text-align: left;
+  }
+}
+
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
+  @media (max-width: 768px) {
+    background-color: #fff;
+  }
 }
 
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+
 }
 
 .main-name {
